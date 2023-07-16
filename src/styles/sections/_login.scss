@@ -1,0 +1,132 @@
+.login{
+    background-color: white;
+    padding: 10px 15px;
+
+    .login-logo{
+        .logo{
+            width: 7rem;
+            display: flex;
+            margin: 0 auto 10px;
+
+        }
+        h1{
+            display: none;
+        }
+    }
+
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        input{
+            padding: 7px 10px;
+            background-color: $gray;
+            border: 1px solid $gray;
+            border-radius: 5px;
+            box-shadow: $med-gray 1px 1px 1px 1px;
+            margin-bottom: 13px;
+        }
+
+        .button1{
+            border: none;
+            border-radius: 5px;
+            background-color: $blue;
+            color: $white;
+            padding: 10px;
+            font-weight: $bold;
+            margin-bottom: 10px;
+        }
+
+        .button2{
+            background-color: $white;
+            border: 2px solid $med-gray;
+            border-radius: 5px;
+            padding: 5px;
+            width: 20rem;
+            max-width: 100%;
+            margin: 0 auto 8rem;
+        }
+
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            hr{
+                width: 10rem;
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .signup{
+        p{
+            text-align: end;
+            margin-right: 10px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            p{
+                text-align: center;
+            }
+            input{
+                width: 100%;
+                margin-bottom: 10px;
+                background-color: $gray;
+                border: 2px solid $med-gray;
+                border-radius: 5px;
+                padding: 7px 10px;
+            }
+
+            .signup-btn{
+                border: none;
+                border-radius: 5px;
+                background-color: $light-green;
+                color: $white;
+                padding: 10px;
+                margin: 10px auto 20px;
+                width: 15rem;
+                font-weight: $bold;
+            }
+        }
+
+
+    }
+
+    .login-footer{
+        
+        p{
+            font-weight: $bold;
+            text-align: center;
+            img{
+                width: 25px;
+            }
+        }
+
+        .login-lang{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            li{
+                list-style: none;
+                text-align: center;
+            }
+        }
+        
+        li:hover, li:focus{
+            color: $blue;
+            cursor: pointer;
+        }
+        .about{
+            display: flex;
+            list-style: none;
+            align-items: center;
+            width: 15rem;
+            margin: 0 auto;
+        }
+    }
+}

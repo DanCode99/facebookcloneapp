@@ -1,0 +1,18 @@
+@import "./variables/variables";
+@import "./sections/login";
+@import "./sections/posts";
+@import "./sections/profile";
+@import "./responsive//responsive";
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .app{
+    display: flex;
+    margin: 0 auto;
+    color: $black;
+    background-color: $med-gray;
+  }

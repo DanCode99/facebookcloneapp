@@ -1,0 +1,601 @@
+/* Colors */
+/* Font weight */
+/* Font size */
+.login {
+  background-color: white;
+  padding: 10px 15px;
+}
+.login .login-logo .logo {
+  width: 7rem;
+  display: flex;
+  margin: 0 auto 10px;
+}
+.login .login-logo h1 {
+  display: none;
+}
+.login .login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.login .login-form input {
+  padding: 7px 10px;
+  background-color: rgb(242, 243, 245);
+  border: 1px solid rgb(242, 243, 245);
+  border-radius: 5px;
+  box-shadow: #e7e4e4 1px 1px 1px 1px;
+  margin-bottom: 13px;
+}
+.login .login-form .button1 {
+  border: none;
+  border-radius: 5px;
+  background-color: #1877F2;
+  color: #f6f5f5;
+  padding: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.login .login-form .button2 {
+  background-color: #f6f5f5;
+  border: 2px solid #e7e4e4;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20rem;
+  max-width: 100%;
+  margin: 0 auto 8rem;
+}
+.login .login-form p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .login-form p hr {
+  width: 10rem;
+  margin: 0 10px;
+}
+.login .signup p {
+  text-align: end;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.login .signup form {
+  display: flex;
+  flex-direction: column;
+}
+.login .signup form p {
+  text-align: center;
+}
+.login .signup form input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgb(242, 243, 245);
+  border: 2px solid #e7e4e4;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.login .signup form .signup-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #42B72A;
+  color: #f6f5f5;
+  padding: 10px;
+  margin: 10px auto 20px;
+  width: 15rem;
+  font-weight: 700;
+}
+.login .login-footer p {
+  font-weight: 700;
+  text-align: center;
+}
+.login .login-footer p img {
+  width: 25px;
+}
+.login .login-footer .login-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login .login-footer .login-lang li {
+  list-style: none;
+  text-align: center;
+}
+.login .login-footer li:hover, .login .login-footer li:focus {
+  color: #1877F2;
+  cursor: pointer;
+}
+.login .login-footer .about {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 15rem;
+  margin: 0 auto;
+}
+
+/* nav */
+.nav {
+  width: 100%;
+}
+.nav .nav-bar {
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  padding: 5px 10px 0;
+}
+.nav .nav-bar i {
+  width: auto;
+}
+.nav .nav-bar .top {
+  display: flex;
+  align-items: center;
+}
+.nav .nav-bar .top i {
+  background-color: rgb(242, 243, 245);
+  border-radius: 50%;
+  font-size: 1.4rem;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+.nav .nav-bar .top img {
+  width: 10rem;
+  margin-right: auto;
+  margin-left: -15px;
+}
+.nav .nav-bar .bottom {
+  align-items: center;
+  border-bottom: 2px solid #e7e4e4;
+  color: #565758;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+.nav .nav-bar .bottom .bi-house-door-fill {
+  color: #1877F2;
+  border-color: #1877F2;
+}
+.nav .nav-bar .bottom i {
+  border-bottom: 2px solid #f6f5f5;
+}
+.nav .nav-bar .bottom i:hover, .nav .nav-bar .bottom i:focus {
+  border-bottom: 2px solid #1877F2;
+}
+
+/*log out*/
+#handle-logout {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.644);
+  height: 100vh;
+  width: 100vw;
+  color: #312e2e;
+  text-align: center;
+  z-index: 2;
+}
+#handle-logout button {
+  width: 5rem;
+  border: 1px solid #312e2e;
+  border-radius: 5px;
+  margin: 5px 15px;
+}
+
+#logout {
+  border-radius: 10px;
+  background-color: #f6f5f5;
+  display: flex;
+  font-size: 1.4rem;
+  flex-direction: column;
+  height: auto;
+  margin: 5rem auto;
+  padding: 15px;
+  width: 18rem;
+}
+
+/* Posts bar*/
+.post-profile {
+  width: 2.5rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-bar {
+  margin-top: 5.5rem;
+  margin-bottom: 12px;
+  padding: 1.5rem 15px 1rem;
+  background-color: white;
+}
+.post-bar input {
+  width: 14rem;
+  border-radius: 20px;
+  border: 2px solid #e7e4e4;
+  padding: 5px;
+  margin: 0 10px;
+}
+.post-bar i {
+  text-align: end;
+}
+.post-bar .bi-send {
+  color: #1877F2;
+  margin-right: 5px;
+}
+.post-bar i:hover, .post-bar i:focus {
+  font-size: 1.4rem;
+}
+.post-bar .bi-image {
+  color: #42B72A;
+}
+
+/* Histories section*/
+.histories {
+  overflow-x: scroll;
+  background-color: white;
+  display: flex;
+  height: 15.8rem;
+  margin-bottom: 15px;
+}
+.histories .hist-item {
+  padding: 10px 5px;
+}
+.histories .hist-item .hist-img {
+  border-radius: 10px;
+  height: 14rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 8rem;
+}
+.histories .hist-item p {
+  font-weight: 700;
+  position: relative;
+  bottom: 2.2rem;
+  color: #f6f5f5;
+  left: 5px;
+  font-size: 0.8rem;
+  width: 7.8rem;
+}
+
+/* posts */
+.post-item {
+  background-color: white;
+  margin-bottom: 15px;
+}
+.post-item .post-top {
+  display: flex;
+  padding: 10px;
+}
+.post-item .post-top p {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+.post-item .post-med p {
+  padding: 0 10px;
+}
+.post-item .post-med i {
+  color: #1877F2;
+}
+.post-item .post-btn {
+  display: flex;
+  border-top: 1px solid #e7e4e4;
+}
+.post-item .post-btn button {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+}
+.post-item .post-btn button i {
+  color: #1877F2;
+}
+.post-item .post-input {
+  display: flex;
+}
+.post-item .post-input button {
+  width: auto;
+  border: none;
+  background-color: white;
+  color: #1877F2;
+  padding: 0 5px;
+}
+.post-item .post-input input {
+  max-width: 100%;
+  overflow-y: scroll;
+  padding: 5px;
+  border: 1px solid #e7e4e4;
+}
+.post-item .post-comment {
+  padding: 5px 10px 0;
+}
+.post-item .post-comment .top-comment {
+  display: flex;
+}
+.post-item .post-comment .top-comment p {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.profile .nav-profile {
+  display: flex;
+  align-items: center;
+  color: #312e2e;
+  background-color: white;
+  padding: 10px;
+}
+.profile .nav-profile p {
+  margin: 0 auto;
+}
+.profile .nav-profile .bi-search {
+  text-align: end;
+}
+.profile .profile-photos {
+  background-color: white;
+}
+.profile .profile-photos .cover {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 2.5rem;
+}
+.profile .profile-photos .profile-photo {
+  border: 4px solid white;
+  width: 12rem;
+  height: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 13rem;
+}
+.profile .profile-btn {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.profile .profile-btn h3 {
+  font-weight: bold;
+}
+.profile .profile-btn button {
+  width: auto;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.profile .profile-btn .story {
+  background-color: #1877F2;
+  color: white;
+}
+.profile .details {
+  background-color: white;
+  padding: 10px;
+  border-bottom: 2px solid #e7e4e4;
+}
+.profile .details button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #1877F2;
+  background-color: rgb(215, 222, 252);
+}
+.profile .friends {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.profile .friends h1 {
+  font-weight: 700;
+}
+.profile .friends button {
+  border: none;
+  font-weight: 500;
+}
+.profile .friends .friends-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+}
+.profile .friends .friends-grid .friend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile .friends .friends-grid .friend-image {
+  width: 100px;
+  height: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.profile .friends .friends-grid .friend-name {
+  color: #312e2e;
+  margin-left: 15px;
+  width: 100px;
+  font-weight: 700;
+}
+.profile .post-input {
+  background-color: white;
+  padding: 10px;
+}
+.profile .post-input .input-profile {
+  display: flex;
+  align-items: center;
+}
+.profile .post-input .input-profile input {
+  border: none;
+  margin-left: 10px;
+}
+.profile .post-input .input-profile i {
+  text-align: end;
+}
+.profile .under-input {
+  text-align: center;
+  display: flex;
+  padding: 10px 0 0;
+  background-color: white;
+  border-top: 1px solid #e7e4e4;
+  border-bottom: 1px solid #e7e4e4;
+}
+.profile .under-input p {
+  margin: 0;
+}
+.profile .under-input .bi-camera-video {
+  color: red;
+}
+.profile .under-input .bi-image {
+  color: #42B72A;
+}
+.profile .under-input .bi-flag-fill {
+  color: #1877F2;
+}
+.profile .manage-posts {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.profile .manage-posts button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.profile .profile-content {
+  display: flex;
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.profile .profile-content button {
+  width: auto;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* very small devices */
+@media (max-width: 300px) {
+  /* posts */
+  button {
+    font-size: 0.8rem;
+  }
+  .post-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .post-btn button {
+    width: auto;
+  }
+  /* post bar */
+  .post-bar {
+    font-size: 0.8rem;
+    padding: 1.5rem 0;
+  }
+  .post-bar input {
+    width: 12rem;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  /* profile */
+  .profile .profile-btn {
+    padding: 10px 0;
+  }
+  .profile .friends .friends-grid {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* big devices */
+@media (min-width: 700px) {
+  /* login */
+  .login {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(242, 243, 245);
+    height: 100vh;
+    width: 100%;
+  }
+  .login .login-container {
+    margin-top: 6rem;
+    display: flex;
+    padding: 0 5rem 1rem;
+  }
+  .login .login-container .login-logo {
+    width: 50rem;
+    margin-right: 10px;
+  }
+  .login .login-container .login-logo img {
+    width: 18rem;
+  }
+  .login .login-container .login-logo h1 {
+    display: block;
+    font-size: 1.4rem;
+  }
+  .login .login-container .big-login {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2rem 1rem 5rem;
+    max-width: 25rem;
+  }
+  .login .login-container .big-login input {
+    background-color: white;
+  }
+  .login .login-container .big-login .button2 {
+    margin-bottom: 0;
+  }
+  .login .login-footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 0;
+    padding: 2rem;
+  }
+  /* posts */
+  .post-bar {
+    text-align: center;
+  }
+  .post-bar input {
+    width: 30rem;
+  }
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+  }
+  .post-item img {
+    max-height: 35rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* profile */
+  .profile-big {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .profile-big .part-one {
+    padding-right: 5px;
+  }
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  margin: 0 auto;
+  color: #312e2e;
+  background-color: #e7e4e4;
+}/*# sourceMappingURL=styles.css.map */

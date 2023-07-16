@@ -1,0 +1,228 @@
+/* nav */
+.nav{
+    width: 100%;
+    .nav-bar{
+        z-index: 1;
+        background-color: white;
+        position: fixed;
+        padding: 5px 10px 0;
+        i{
+            width: auto;
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            
+            i{
+                background-color: $gray;
+                border-radius: 50%;
+                font-size: $font-med;
+                margin: 0 5px;
+                padding: 0 5px;
+            }
+            img{
+                width: 10rem;
+                margin-right: auto;
+                margin-left: -15px;
+            }
+        }
+
+        .bottom{
+            align-items: center;
+            border-bottom: 2px solid $med-gray;
+            color: $dark-gray;
+            display: flex;
+            justify-content: space-between;
+            font-size: $font-med;
+
+            .bi-house-door-fill{
+                color: $blue;
+                border-color: $blue;
+            }
+
+            i{
+                border-bottom: 2px solid $white;
+            }
+
+            i:hover, i:focus{
+                border-bottom: 2px solid $blue;
+            }
+        }
+
+    }
+
+}
+
+/*log out*/
+
+#handle-logout{
+    
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 100vh;
+    width: 100vw;
+    color: $black;
+    text-align: center;
+    z-index: 2;
+    button{
+        width: 5rem;
+        border: 1px solid $black;
+        border-radius: 5px;
+        margin: 5px 15px;
+        
+    }
+}
+
+    #logout{
+        border-radius: 10px;
+        background-color: $white;
+        display: flex;
+        font-size: $font-med;
+        flex-direction: column;
+        height: auto;
+        margin: 5rem auto;
+        padding: 15px;
+        width: 18rem;
+        
+    }
+/* Posts bar*/
+
+.post-profile{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-bar{
+    margin-top: 5.5rem;
+    margin-bottom: 12px;
+    padding: 1.5rem 15px 1rem;
+    background-color: white;
+    input{
+        width: 14rem;
+        border-radius: 20px;
+        border: 2px solid $med-gray;
+        padding: 5px;
+        margin: 0 10px;
+    }
+
+    i{
+        text-align: end;
+    }
+    .bi-send{
+        color: $blue;
+        margin-right: 5px;
+    }
+
+    i:hover, i:focus{
+        font-size: $font-med;
+    }
+
+    .bi-image{
+        color: $light-green;
+    }
+
+    
+}
+
+/* Histories section*/
+
+.histories{
+    overflow-x: scroll;
+    background-color: white;
+    display: flex;
+    height: 15.8rem;
+    margin-bottom: 15px;
+
+    .hist-item{
+        padding: 10px 5px;
+        .hist-img{
+            border-radius: 10px;
+            height: 14rem;
+            object-fit: cover;
+            width: 8rem;
+        }
+
+        p{
+            font-weight: $bold;
+            position: relative;
+            bottom: 2.2rem;
+            color: $white;
+            left: 5px;
+            font-size: $font-small;
+            width: 7.8rem;
+        }
+    }
+
+}
+
+/* posts */
+
+.post-item{
+    background-color: white;
+    margin-bottom: 15px;
+    .post-top{
+        display: flex;
+        padding: 10px;
+        p{
+            margin-left: 1rem;
+            font-weight: $bold;
+        }
+    }
+
+    .post-med{
+        p{
+            padding: 0 10px;
+        }
+
+        i{
+            color: $blue;
+        }
+    }
+
+    .post-btn{
+        display: flex;
+        border-top: 1px solid $med-gray;
+
+        button{
+            background-color: white;
+            border: none;
+            padding: 5px 10px;
+            
+            i{
+                color: $blue;
+            }
+        }
+    }
+
+    .post-input{
+        display: flex;
+
+        button{
+            width: auto;
+            border: none;
+            background-color: white;
+            color: $blue;
+            padding: 0 5px;
+        }
+
+        input{
+            max-width: 100%;
+            overflow-y: scroll;
+            padding: 5px;
+            border: 1px solid $med-gray;
+        }
+    }
+
+    .post-comment{
+        padding: 5px 10px 0;
+        .top-comment{
+            display: flex;
+            p{
+                font-weight: $bold;
+                margin-left: 10px;
+            }
+        }
+    }
+}

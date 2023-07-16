@@ -1,0 +1,136 @@
+/* very small devices */
+
+@media (max-width: 300px){
+    /* posts */
+    button{
+        font-size: $font-small;
+        
+    }
+
+    .post-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+            width: auto;
+        }
+    }
+
+    /* post bar */
+
+    .post-bar{
+        font-size: $font-small;
+        padding: 1.5rem 0;
+        input{
+            width: 12rem;
+            font-size: $font-small;
+            margin: 0;
+        }
+    }
+    /* profile */
+
+    .profile{
+        .profile-btn{
+            padding:10px 0;
+        }
+
+        .friends{
+            .friends-grid {
+                display: grid;
+                grid-auto-rows: auto;
+                grid-template-columns: repeat(2, 1fr);
+                }
+        }
+    }
+}
+/* big devices */
+
+@media (min-width: 700px){
+    /* login */
+
+    .login{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $gray;
+        height: 100vh;
+        width: 100%;
+        .login-container{
+            margin-top: 6rem;
+            display: flex;
+            padding: 0 5rem 1rem;
+            .login-logo{
+                width: 50rem;
+                margin-right: 10px;
+                img{
+                    width: 18rem;
+                }
+                h1{
+                    display: block;
+                    font-size: $font-med;
+                }
+            }
+
+            .big-login{
+                box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 20px;
+                background-color: white;
+                padding: 2rem 1rem 5rem;
+                max-width: 25rem;
+                input{
+                    background-color: white;
+                }
+
+                .button2{
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .login-footer{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            margin: auto 0 0;
+            padding: 2rem;
+        }
+    }
+
+    /* posts */
+
+    .post-bar{
+        text-align: center;
+        input{
+            width: 30rem;
+        }
+    }
+
+    .post-item{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50rem;
+
+        img{
+            max-height: 35rem;
+            object-fit: cover;
+        }
+    }
+
+    /* profile */
+
+    .profile-big{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        
+        .part-one{
+            padding-right: 5px;
+        }
+    }
+}
